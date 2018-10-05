@@ -1,0 +1,10 @@
+git commit : (windows)
+download and install git from https://git-scm.com/downloads
+open cmd
+migrate to folder where repository to be uploaded is present
+>>git init
+>>git add filename  
+or  >>git add .   (FOR ADDING ALL)
+>>git commit -m "your_message_here"
+>>git remote add origin https://github.com/your_username/repository_name.git
+>>git push -u origin master
