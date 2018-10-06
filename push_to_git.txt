@@ -6,7 +6,7 @@ source: https://help.github.com/articles/adding-a-file-to-a-repository-using-the
 4.Stage the file for commit to your local repository.
 	git add .
 5.Commit the file that you've staged in your local repository
-	git commit -m "Add existing file"
+	git commit -m "your-msg-here"
 
 git remote -v	CHECK FOR ORIGIN EXISTENCE
 git remote rm origin 	REMOVE ORIGIN
