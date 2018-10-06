@@ -1,6 +1,6 @@
 source: https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/
 
-1.On your computer, move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository.
+1.Move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository.
 2.Open Git Bash or cmd
 3.Change the current working directory to your local repository.
 4.Stage the file for commit to your local repository.
