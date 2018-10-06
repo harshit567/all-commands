@@ -7,5 +7,10 @@ source: https://help.github.com/articles/adding-a-file-to-a-repository-using-the
 	git add .
 5.Commit the file that you've staged in your local repository
 	git commit -m "Add existing file"
+
+git remote -v	CHECK FOR ORIGIN EXISTENCE
+git remote rm origin 	REMOVE ORIGIN
+git remote add origin https://github.com/your-repo
+
 6.Push the changes of your local repository to GitHub.
-	git push origin your-branch
+	git push origin master
