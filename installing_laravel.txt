@@ -1,0 +1,11 @@
+FOR WINDOWS:
+
+download and install xampp
+add php in path
+Then install composer from https://getcomposer.org/download/
+add composer in path OR run (in cmd) - echo @php "%~dp0composer.phar" %*>composer.bat
+
+Install laravel using "composer global require laravel/installer"
+
+create new project of laravel by: 
+laravel new project_name
