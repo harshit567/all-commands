@@ -1,0 +1,24 @@
+pip install virtualenv
+
+In your windows command prompt, head to the parent folder of your project location: 
+cd parent_folder_of_my_project
+
+Once inside the folder run: 
+virtualenv env
+
+Activating virtualenv 
+On Windows, virtualenv (venv) creates a batch file called \env\Scripts\activate.bat
+To activate virtualenv on Windows, and activate the script is in the Scripts folder :
+\pathto\env\Scripts\activate
+
+To deactivate virtualenv on Windows
+\pathto\env\Scripts\deactivate
+
+To install from requirements.txt file:
+migrate to folder containing requirements.txt file and run the following:
+pip install -r requirements.txt
+
+To save any extra packages installed (in this virtual env) to the requirements.txt file:
+Freezing dependencies
+Pip can export a list of all installed packages and their versions using the freeze command:
+pip freeze
