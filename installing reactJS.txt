@@ -1,0 +1,8 @@
+download and install nodejs from https://nodejs.org/en/download/current/
+
+CMD:
+npm i -g create-react-app
+
+create new project of React by:
+1. Migrate to the folder where you need to create the react app
+2. CMD: create-react-app project_name
